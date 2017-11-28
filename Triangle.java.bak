@@ -28,6 +28,6 @@ public class Triangle extends Shape
 	}
 	public String getType()
 	{
-		return getColor()+"三角形";
+		return "三角形";
 	}
 }
