@@ -1,7 +1,7 @@
 public abstract class Shape  
 {
 	{
-		System.out.println("Ö´ĞĞShapeµÄ³õÊ¼»¯¿é...");
+		System.out.println("æ‰§è¡ŒShapeçš„åˆå§‹åŒ–å—...");
 	}
 	private String color;
 	public abstract double calPerimeter();
@@ -9,11 +9,7 @@ public abstract class Shape
 	public Shape(){}
 	public Shape(String color)
 	{
-		System.out.println("Ö´ĞĞShapeµÄ¹¹ÔìÆ÷...");
+		System.out.println("æ‰§è¡ŒShapeçš„æ„é€ å™¨...");
 		this.color=color;
-	}
-	public static void main(String[] args) 
-	{
-		System.out.println("Hello World!");
 	}
 }
