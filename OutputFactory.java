@@ -1,3 +1,7 @@
+
+package simplefactory; 
+import j.Output;
+
 public class OutputFactory
 {
 	public Output getOutput()

@@ -1,3 +1,4 @@
+
 package j;
 public interface Output
 {
