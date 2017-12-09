@@ -1,4 +1,5 @@
 
+package j;
 public interface Output
 {
 	int MAX_CACHE_LINE=1;

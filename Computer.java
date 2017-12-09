@@ -1,5 +1,3 @@
-package simplefactory; 
-
 import j.Output;
 
 public class Computer

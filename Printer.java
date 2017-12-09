@@ -1,4 +1,3 @@
-package simplefactory; 
 import j.Output;
 interface Product 
 {
