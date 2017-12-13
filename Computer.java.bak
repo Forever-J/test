@@ -1,5 +1,3 @@
-package simplefactory; 
-
 import j.Output;
 
 public class Computer
@@ -9,13 +7,13 @@ public class Computer
 	{
 		this.out=out;
 	}
-	public void keyIn(String msg)
+	/*public void keyIn(String msg)
 	{
 		out.getData(msg);
 	}
 	public void print()
 	{
 		out.out();
-	}
+	}*/
 }  
 
