@@ -6,7 +6,7 @@ public class SubClass extends Out.In
 	}
 	public static void main(String[] args)
 	{
-		Out out=new out();
+		Out out=new Out();
 		SubClass sub=new SubClass(out);
 	}
 }  
