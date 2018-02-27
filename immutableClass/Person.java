@@ -36,6 +36,7 @@ public class Person
 	{
 		return new Name(name.getFirstName(),name.getLastName());
 	}
+	
 	public static void main(String[] args)
 	{
 		Name n = new Name("悟空", "孙");
@@ -44,7 +45,9 @@ public class Person
 		System.out.println(p.getName().getFirstName());
 		// 改变Person对象name的firstName值
 		n.setFirstName("八戒");
-		// Person对象的name的firstName值被改为"八戒"
+		// Person对象的name的firstName值不会被改为"八戒"
+		System.out.println(p.getName().getFirstName());
+		p.name.setFirstName("八戒");
 		System.out.println(p.getName().getFirstName());
 	}
 }  

@@ -2,7 +2,7 @@
 package j;
 public interface Output
 {
-	int MAX_CACHE_LINE=5;
+	int MAX_CACHE_LINE=1;
 	void out();
 	void getData(String msg);
 	default void print(String... msgs)

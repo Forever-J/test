@@ -24,11 +24,13 @@ public class Cow
 	}
 	public void test()
 	{
-	
+		CowLeg cl=new CowLeg(1.12,"黑白相间");
+		cl.info();
 	}
 	public static void main(String[] args)
 	{
-		CowLeg cl=new CowLeg(1.12,"黑白相间");
-		cl.info();
+		Cow cow=new Cow(378.9);
+		System.out.println("本牛腿所在奶牛重："+weight);
+		cow.test();
 	}
 }
