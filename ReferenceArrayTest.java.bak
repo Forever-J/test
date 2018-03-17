@@ -1,0 +1,32 @@
+class Person  
+{
+	public int age;
+	public double height;
+	public void info()
+	{
+		System.out.println("年龄是："+age+",身高："+height);
+	}
+}
+public class ReferenceArrayTest
+{
+	public static void main(String[] args)
+	{
+		Person[] students;
+		students=new Person[3];
+		Person zhang=new Person();
+		zhang.age=20;
+		zhang.height=175;
+		Person lee=new Person();
+		lee.age=25;
+		lee.height=183;
+		students[0]=zhang;
+		students[1]=lee;
+		students[2]=new Person();
+		students[1].info();
+		lee.info();
+		for(Person student:students)
+		{
+			System.out.println(student.info());
+		}
+	}
+}
