@@ -1,0 +1,15 @@
+import java.util.*;
+import java.util.regex.*;
+public class FindGroup
+{
+	public static void main(String[] args) 
+	{
+		String str="13500151950"+"15265987542"+"13752158754"+"15895462535"+"8317109";
+		Matcher m=Pattern.compile("((13\\d)|(15\\d))\\d{8}").matcher(str);
+		while(m.find())
+		{
+			System.out.println(m.group());
+		}
+		System.out.println("Hello World!");
+	}
+}

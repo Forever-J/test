@@ -12,7 +12,7 @@ public class IteratorTest
 		{
 			String book=(String)it.next();
 			System.out.println(book);
-			if(book.equals("Geek"))
+			if(book.equals("joe"))
 			{
 				it.remove();
 			}
