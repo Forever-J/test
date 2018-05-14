@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/ArraysTest.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+=======
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/8.1/IteratorEach.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/ArraysTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/GcTest.java" charset="UTF-8" />
+>>>>>>> be2592b1a786521cdaa7083c748b2564835624ed
   </component>
 </project>
